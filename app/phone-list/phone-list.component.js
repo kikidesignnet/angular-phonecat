@@ -3,14 +3,8 @@
 angular.
   module('phoneList').
     component('phoneList', {
-      template:
-        '<p>Total number of phones: {{$ctrl.phones.length}}</p>' +
-        '<ul>' +
-          '<li ng-repeat="phone in $ctrl.phones">' +
-            '<span>{{phone.name}}</span>' +
-            '<p>{{phone.snippet}}</p>' +
-            '</li>' +
-            '</ul>',
+      //Note: The URL is relate to our `index.html` file
+      templateUrl: 'phone-list/phone-list.template.html',
       controller: function PhoneListController() {
         this.phones = [
           {
