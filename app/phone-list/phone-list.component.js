@@ -1,7 +1,7 @@
 // Register `phoneList` component, along with its associated controller and template
 
 angular.
-  module('phonecatApp').
+  module('phoneList').
     component('phoneList', {
       template:
         '<p>Total number of phones: {{$ctrl.phones.length}}</p>' +
