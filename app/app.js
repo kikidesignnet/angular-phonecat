@@ -14,5 +14,6 @@ phonecatApp.controller('PhoneListController', function PhoneListController($scop
       name: 'Motorola XOOM™',
       snippet: 'The Next, Next Generation tablet.'
     }
-  ]
+  ],
+  $scope.name = 'world';
 });
