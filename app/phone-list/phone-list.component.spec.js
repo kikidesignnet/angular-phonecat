@@ -13,7 +13,7 @@ describe('phoneList', function() {
     it('should create a `phones` model with 3 phones', function() {
 
     expect(ctrl.phones.length).toBe(3);
-  }));
+  });
 
   it('should set a default value for the `orderProp` model', function() {
     expect(ctrl.orderProp).toBe('age');
