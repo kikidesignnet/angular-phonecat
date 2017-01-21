@@ -18,7 +18,7 @@ angular.
           left: 0
         }).animate({
           top: 0
-        }, done);
+        }, 500, done);
 
         return function animateInEnd(wasCanceled) {
           if (wasCanceled) element.stop();
@@ -34,7 +34,7 @@ angular.
         left: 0
       }).animate({
         top: -500
-      }, done);
+      }, 500, done);
 
       return function animateOutEnd(wasCanceled) {
         if (wasCanceled) element.stop();
